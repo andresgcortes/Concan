@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- $Id: category.xml 19638 2010-11-25 02:53:32Z ian $ -->
+<form>
+	
+	<fieldset addfieldpath="/libraries/concan/fields">
+		
+		<field name = "id" type = "hidden"/>
+		
+		<field name = "nombre" type = "text"
+			label		= "Nombre Proveedor / Razon Social"
+			description	= "Nombre del Proveedor"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+				
+		<field name = "nit" type = "text"
+			label		= "Nit/ Cédula"
+			description	= "Digitar NIT o Cédula"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "pais" type = "paises"
+			label		= "País"
+			description	= "Seleccionar País"			
+			required	= "true"		
+			class		= "pais"
+			labelclass	= "form-label"
+		/>
+
+		<field name = "ciudad" type = "ciudades"
+			label		= "Ciudad"
+			description	= "Seleccionar ciudad"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "direccion" type = "text"
+			label		= "Dirección"
+			description	= "Digitar Dirección"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "barrio" type = "text"
+			label		= "Barrio" 
+			description	= "Seleccionar barrio"			
+			required	= "true"		 
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+	
+		<field name = "oficina" type = "text"
+			label		= "Oficina"
+			description	= "Seleccionar oficina"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "tel_fijo" type = "text"
+			label		= "Teléfono Fijo"
+			description	= "Teléfono Fijo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "trel_movil" type = "text"
+			label		= "Celular"
+			description	= "Teléfono Celular"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+				
+		<field name = "email" type = "text"
+			label		= "Correo Electrónico"
+			description	= "Ingrese correo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>	
+		
+		<field name="disabled" type="radio" 
+			label		= "Estado del Proveedor" 
+			description = "Estado del Proveedor" 
+		>
+				<option value	= "0" class="skin-square-green" >Activo</option>
+				<option value	= "1" class="skin-square-green" >Inactivo</option>
+		</field>
+		
+	</fieldset>
+</form>

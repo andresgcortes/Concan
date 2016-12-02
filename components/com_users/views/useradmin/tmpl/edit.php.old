@@ -1,0 +1,189 @@
+<?php
+
+defined('_JEXEC') or die;
+
+// Include the component HTML helpers.
+JHtml::addIncludePath(JPATH_COMPONENT.'/helpers/html');
+//JHTML::_('behavior.formvalidation');  
+
+defined('_JEXEC') or die;
+
+JHtml::_('behavior.tooltip');
+JHTML::_('behavior.formvalidation'); ?>
+
+<script type="text/javascript" >
+	
+	Joomla.submitbutton = function(task){
+		  
+		if (task == 'useradmin.cancel' || document.formvalidator.isValid(document.id('user-form'))) {
+			Joomla.submitform(task, document.getElementById('user-form'));
+		
+		}else{
+			alert('Los campos en rojo son obligatorios');
+		} 
+		
+		return; 
+
+	}
+	
+</script>
+
+<section id="widget-grid" class="">
+	
+	<div class="row">
+		
+		<article class="col-sm-12 sortable-grid ui-sortable">
+			
+			<div class="jarviswidget jarviswidget-color-blueDark jarviswidget-sortable" id="wid-id-0" data-widget-colorbutton="false" data-widget-editbutton="false" data-widget-custombutton="false" role="widget">
+			
+				<header role="heading">
+					<h2><?php echo JText::_('Formulario de datos Generales del Usuario') ?></h2>
+				</header>
+			
+				<div class="widget-body">
+					
+					<form action="<?php echo JRoute::_('index.php?option=com_users&view=useradmin&layout=edit&id='.(int) $this->item->id); ?>" method="post" autocomplete="off" name="adminForm" id="user-form" class="form-validate smart-form">
+						
+						<div class="col-sm-12 col-md-12 col-lg-6 sortable-grid ui-sortable">
+							
+							<fieldset>
+								
+								<section>
+									
+									<?php echo $this->form->getLabel('name'); ?>
+									
+									<label class="input">
+										<i class="icon-prepend fa fa-user"></i>
+										<?php echo $this->form->getInput('name'); ?> 
+									</label>
+										
+								</section>
+								
+								<section>
+									
+									<?php echo $this->form->getLabel('password'); ?>
+									
+									<label class="input">
+										<i class="icon-append fa fa-lock"></i>
+										<?php echo $this->form->getInput('password'); ?> 
+									</label>
+										
+								</section>
+								
+								<section>
+									
+									<?php echo $this->form->getLabel('email'); ?>
+									
+									<label class="input">
+										<i class="icon-prepend fa fa-envelope-o"></i>
+										<?php echo $this->form->getInput('email'); ?> 
+									</label>
+										
+								</section>
+								
+								<section>									
+									<?php echo $this->form->getLabel('core_rol'); ?>
+									
+									<label class="select">
+										<?php echo $this->form->getInput('core_rol'); ?> 
+									</label>										
+								</section>
+								
+								<section>
+									
+									<?php echo $this->form->getLabel('sendEmail'); ?>
+									
+									<div class="col-md-10">
+										<?php echo $this->form->getInput('sendEmail'); ?> 
+									</div>
+										
+								</section>
+									
+							</fieldset>
+						
+						</div>
+						
+						<div class="col-sm-12 col-md-12 col-lg-6 sortable-grid ui-sortable">
+							
+							<fieldset>
+								
+								<section>									
+									<?php echo $this->form->getLabel('username'); ?>
+									
+									<label class="input">
+										<i class="icon-append fa fa-user"></i>
+										<?php echo $this->form->getInput('username'); ?> 
+									</label>										
+								</section>
+								
+								<section>									
+									<?php echo $this->form->getLabel('password2'); ?>
+									
+									<label class="input">
+										<i class="icon-append fa fa-lock"></i>
+										<?php echo $this->form->getInput('password2'); ?> 
+									</label>										
+								</section>
+								
+								<section>
+									
+									<?php echo $this->form->getLabel('core_area'); ?>
+									
+									<label class="select">
+										<?php echo $this->form->getInput('core_area'); ?> 
+										<i></i>
+									</label>
+										
+								</section>
+								
+								<section>
+									
+									<?php echo $this->form->getLabel('core_cargo'); ?>
+									
+									<label class="select">
+										<?php echo $this->form->getInput('core_cargo'); ?> 
+										<i></i>
+									</label>
+										
+								</section>
+								
+								<section>		
+									
+									<?php echo $this->form->getLabel('block'); ?>
+									
+									<div class="col-md-10">
+										<?php echo $this->form->getInput('block'); ?> 
+									</div>
+									
+								</section>
+							
+							</fieldset>
+							
+						</div>
+						
+						<div class="col-sm-12 col-md-12 col-lg-6 sortable-grid ui-sortable">
+							
+							<h2 class="dotted">
+								<?php echo JText::_('Roles de usuario') ?>
+							</h2>
+							
+							<div class="box-content">
+								
+								<?php echo $this->loadTemplate('groups');?>
+								
+							</div>
+						
+						<input type="hidden" name="task" value="" />
+						<?php echo JHtml::_('form.token'); ?>
+
+					</form>		
+				
+				</div>	
+				
+			</div>
+		
+		</article>
+		
+	</div>
+	
+</section>	

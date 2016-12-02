@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+
+	<fieldset addfieldpath="/libraries/concan/fields" addrulepath="/libraries/concan/rules">
+
+		<fields name="filter">
+
+			<field
+
+				name="search"
+
+				type="text"
+
+				label="COM_CONTENT_FILTER_SEARCH_DESC"
+
+				hint="JSEARCH_FILTER"
+
+			/>
+
+			
+
+			<field
+
+				name="id_cliente"
+
+				type="clientes"
+
+				label="Clientes"
+
+				description="Clientes"
+
+				onchange="this.form.submit();"
+
+			/>
+
+				
+
+			<field
+
+				name="id_vehiculos"
+
+				type="Vehiculos"
+
+				label="Vehiculos"
+
+				description="vehiculos"
+
+				onchange="this.form.submit();"
+
+			>
+
+				
+
+			</field>
+
+
+	<field
+
+				name="id_conductor"
+
+				type="conductores"
+
+				label="conductores"
+
+				description="conductores"
+
+				onchange="this.form.submit();"
+
+			>
+
+				
+
+			</field>
+
+
+
+	<field
+
+				name="id_material_recoger"
+
+				type="Material"
+
+				label="Material a recoger"
+
+				description="Material"
+
+				onchange="this.form.submit();"
+
+			>
+			
+
+				
+
+			</field>
+
+	<field name="tipo_orden" type="list" 
+
+				label 		= "Tipo de Orden" 
+
+				description = "Seleccione el tipo de orden" 
+
+				labelclass	= "">
+
+					<option value = "1" >Orden Pedido</option>
+
+					<option value = "2"  >Ingreso Material</option>
+
+			</field>
+			
+			
+	<field
+
+				name="id_estadodepago"
+
+				type="estadodepago"
+
+				label="estadodepago"
+
+				description="operacion_estado_factura"
+
+				onchange="this.form.submit();"
+
+			>
+
+				
+
+			</field>
+
+				
+
+	<field
+
+				name="id_estadodeorden"
+
+				type="estadodeorden"
+
+				label="estadodeorden"
+
+				description="estadodeorden"
+
+				onchange="this.form.submit();"
+
+			>
+
+				
+
+			</field>		
+
+
+
+		</fields>
+
+	</fieldset>
+
+
+</form>

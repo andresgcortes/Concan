@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- $Id: category.xml 19638 2010-11-25 02:53:32Z ian $ -->
+<form>
+	
+	<fieldset addfieldpath="/libraries/concan/fields">
+		
+		<field name = "id" type = "hidden"/>
+		
+		<field name = "nombre" type = "text"
+			label		= "Material"
+			description	= "Nombre del Material"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+				
+		
+				
+		<field name = "descripcion" type = "textarea"
+			label		= "Descripción"
+			description	= "Descripción"			
+			required	= "true"	
+			class		= "form-control"
+			labelclass	= "form-label"	
+			hint		= "Descripción"
+		/>		
+		
+	</fieldset>
+	
+</form>

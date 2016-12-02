@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: user.xml 20081 2011-01-05 00:40:30Z eddieajau $ -->
+
+<form>
+	
+	<fieldset name="user_details2" addfieldpath="/libraries/concan/fields">
+			
+		<field name="name" type="text"
+			class		= "form-control"
+			labelclass	= "form-label"
+			description=""
+			label="Nombres y Apellidos"
+			required="true"
+		/>
+	
+		<field name="username" type="text"
+			description = "Es el usado para iniciar sesion."
+			label		= "Nombre de la cuenta"
+			required	= "true"
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+	
+		<field name="password" type="password"
+			autocomplete="off"
+			description=""
+			filter="raw"
+			label="Contraseña"
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+	
+		<field name="password2" type="password"
+			autocomplete="off"
+			description="Escriba de nuevo la contraseña"
+			filter="raw"
+			label="Verificar Contraseña"
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+	
+		<field name="email" type="email"
+			description=""
+			label="JGLOBAL_EMAIL"
+			required="true"
+			validate="email"
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field
+			name="registerDate"
+			type="hidden"
+			class="readonly"
+			label="Fecha de registro"
+			description=""
+			readonly="true"
+			format="%Y-%m-%d %H:%M:%S"
+			size="22"
+			filter="user_utc"
+		/>
+
+		<field
+			name="lastvisitDate"
+			type="hidden"
+			class="readonly"
+			label="Ultima entrada"
+			description=""
+			readonly="true"
+			format="%Y-%m-%d %H:%M:%S"
+			size="22"
+			filter="user_utc"
+		/>
+
+		<field
+			name="sendEmail"
+			type="radio"
+			default="0"
+			label="Recibir correos del sistema"
+			description="">
+			<option
+				value="1" class="radio">JNO</option>
+			<option
+				value="0" class="radio">JYES</option>
+		</field>
+
+		<field
+			name="block"
+			type="radio"
+			default="0"
+			label="Habilitar este usuario"
+			description="">
+			<option
+				value="1" class="radio ">JNO</option>
+			<option
+				value="0" class="radio ">JYES</option>
+		</field>
+
+		<field name="id" type="hidden" />
+
+	</fieldset>
+	
+	<fieldset addfieldpath="/libraries/concan/fields" name="user_details">
+		 
+		<field name = "id_cantera" type = "cantera"
+	   		label  		= "Canteras"
+			description = "Seleccione Cantera"   
+			class		= "form-control"
+			labelclass	= "form-label"
+			hint  		= "Cantera"
+  		/>
+		
+	</fieldset>
+	
+	<field name="groups" type="hidden" />
+
+</form>

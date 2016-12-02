@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- $Id: category.xml 19638 2010-11-25 02:53:32Z ian $ -->
+<form>
+	
+	<fieldset addfieldpath="/libraries/concan/fields">
+		
+		<field name = "placa" type = "text"
+			label		= "Número de Placa"
+			description	= "Digitar Placa"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "marca" type = "text"
+			label		= "Marca del vehiculo"
+			description	= "Ingrese Marca del vehiculo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "identificacion" type = "text"
+			label		= "Número Identificación del Propietario"
+			description	= "Digite número identificación"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "modelo" type = "text"
+			label		= "Modelo del vehiculo"
+			description	= "Ingrese Modelo del Vehículo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "color" type = "text"
+			label		= "Color de vehículo"
+			description	= "ingrese color de Vehículo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "carga" type = "text"
+			label		= "Capacidad de Carga"
+			description	= "Digitar dirección"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>		
+		
+		<field name = "propietario" type = "text"
+			label		= "Nombre Propietario"
+			description	= "Nombre del Propietario"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name="propiedad" type="list" 
+			label 		= "Vehículo de Propiedad" 
+			description = "Vehículo "
+			default		= "0" 
+			class		= "form-control propiedad"
+			labelclass	= "form-label" >
+				<option value = "" >Tipo Propietario</option>				
+				<option value = "4" >Propio</option>
+				<option value = "1" >Cliente</option>
+				<option value = "2" >Proveedor</option>
+		</field>
+		
+		<field name = "id_propiedad" type = "idpropietario"
+			label		= "Seleccione Propietario"
+			description	= "Seleccione el propietario del Vehículo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name="disabled" type="radio" 
+			label 		= "Estado Vehículo" 
+			description = "Estado del Vehículo" 
+			class		= ""
+			labelclass	= "">
+				<option value = "0" class="skin-square-green" >Activo</option>
+				<option value = "1" class="skin-square-green" >Inactivo</option>
+		</field>
+			
+	</fieldset>
+
+</form>

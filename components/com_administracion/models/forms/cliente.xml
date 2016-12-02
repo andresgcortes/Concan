@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- $Id: category.xml 19638 2010-11-25 02:53:32Z ian $ -->
+
+<form>
+	
+	<fieldset addfieldpath="/libraries/concan/fields">
+	
+		<field name = "id" type = "hidden"/>
+		
+		<field name = "nombre" type = "text"
+			label		= "Nombre Cliente / Razón Social"
+			description	= "Nombre del cliente"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "id_cantera" type = "canteras"
+			label		= "Nombre Cantera"
+			description	= "Nombre de la Cantera"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+
+		<field name = "nit" type = "text"
+			label		= "Nilt/Cédula"
+			description	= "Digitar NIT o Cédula"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<!--pais - ciudad - dirección - barrio - oficina 		-->
+		<field name = "pais" type = "paises"
+			label		= "País"
+			description	= "Seleccionar País"			
+			required	= "true"		
+			class		= "pais"
+			labelclass	= "form-label"
+		/>
+
+		<field name = "ciudad" type = "ciudades"
+			label		= "Ciudad"
+			description	= "Seleccionar ciudad"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "direccion" type = "text"
+			label		= "Dirección"
+			description	= "Digitar Dirección"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "barrio" type = "text"
+			label		= "Barrio" 
+			description	= "Seleccionar barrio"			
+			required	= "true"		 
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+	
+		<field name = "oficina" type = "text"
+			label		= "Oficina"
+			description	= "Seleccionar oficina"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+			
+		<field name = "tel_fijo" type = "text"
+			label		= "Telefono Fijo"
+			description	= "Teléfono Fijo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "trel_movil" type = "text"
+			label		= "Celular"
+			description	= "Número Celular"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+				
+		<field name = "email" type = "text"
+			label		= "Correo Electrónico"
+			description	= "Ingrese Correo Electrónico"			
+			required	= "true"		
+			class		= "form-control validate-email"
+			labelclass	= "form-label"
+		/>
+			
+		<field name="estado" type="radio" 
+			label		= "Estado del cliente" 
+			description	= "Estado en el que se encuentra el Cliente" 
+			class		= ""
+			labelclass	= "">
+				<option value	= "1" class="skin-square-green" >Activo</option>
+				<option value	= "2" class="skin-square-green" >Inactivo</option>
+		</field>
+		
+		<field name = "tipo" type = "radio" 
+			label		= "Tipo de cliente" 
+			description = "Estdo del Tipo de Cliente" 
+			class		= ""
+			labelclass	= "">
+				<option value	= "0" class="skin-square-green" >Suministro</option>
+				<option value	= "1" class="skin-square-green" >Normal</option>
+		</field>			
+			
+	</fieldset>
+
+</form>

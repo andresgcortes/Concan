@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- $Id: category.xml 19638 2010-11-25 02:53:32Z ian $ -->
+<form>
+	
+	<fieldset addfieldpath="/libraries/concan/fields">
+		
+		<field name = "id" type = "hidden"/>
+		
+		<field name = "nombre" type = "text"
+			label		= "Nombre Conductor"
+			description	= "Nombre del conductor"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "cedula" type = "text"
+			label		= "Número de cedula"
+			description	= "Digite número cedula"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "direccion" type = "text"
+			label		= "direccion"
+			description	= "Digitar dirección"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "	tel_fijo" type = "text"
+			label		= "tel_fijo"
+			description	= "Teléfono Fijo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "movil" type = "text"
+			label		= "movil"
+			description	= "Teléfono movil"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "email" type = "text"
+			label		= "email"
+			description	= "Ingrese correo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+	
+		<field name="disabled" type="radio"
+			label		= "Estado del Conductor" 
+			description	= "Estado del Conductor" 
+			class		= ""
+			labelclass	= "iradio-label">
+				<option value	= "0" class="skin-square-green" >Activo</option>
+				<option value	= "1" class="skin-square-green" >Inactivo</option>
+		</field>
+		
+	</fieldset>
+</form>

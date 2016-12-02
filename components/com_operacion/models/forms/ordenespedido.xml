@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- $Id: category.xml 19638 2010-11-25 02:53:32Z ian $ -->
+
+<form>
+
+	<fieldset addfieldpath="/libraries/concan/fields" addrulepath="/libraries/concan/rules">
+
+		<field name = "id" type = "hidden"/>
+				
+		<field name = "token" type = "text"
+			label		= "Token"
+			description	= "Token Asignado al Cliente"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name="tipo_orden" type="radio" 
+			label 		= "Tipo de Orden" 
+			description = "Seleccione el tipo de orden" 
+			class		= "">
+				<option value = "1" class="orden">Orden Pedido</option>
+				<option value = "2" class="orden">Ingreso Material</option>
+		</field>
+		
+		<field name = "id_cliente" type = "clientes"
+			label		= "Nombre Clientes"
+			description	= "Nombre del Clientes"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "fecha_ingreso" type = "text"
+			label		= "Fecha Ingreso"
+			description	= "Fecha de ingreso del Vehículo"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+	
+		<field name = "id_vehiculo" type = "vehiculos"
+			label		= "Placa Vehículo"
+			description	= "Placa del Vehículo"			
+			required	= "true"		
+			class		= "vehiculo materiales"
+			labelclass	= "form-label"
+		/>
+	
+		<field name = "id_cantera" type = "canteras"
+			label		= "Nombre Cantera"
+			description	= "Nombre de la Cantera"			
+			required	= "true"		
+			class		= "form-control cantera"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "id_material" type = "materiales"
+			label		= "Material"
+			description	= "Nombre del Material"			
+			required	= "true"		
+			class		= "form-control materiales"
+			labelclass	= "form-label"
+		/>
+	
+		<field name = "estado_factura" type = "list"
+			label		= "Estado de Facturación"
+			description	= "Estado de la Facturación "			
+			required	= "false"		
+			class		= "form-control "
+			labelclass	= "form-label" >
+	
+				<option value="1" >Pendiente</option>
+				<option value="2" >Realizado</option>
+				<option value="3" >Por Cobrar</option>		
+
+		</field>
+				
+		<field name = "nombre" type = "text"
+			label		= "Nombre Conductor"
+			description	= "Nombre del conductor"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "cedula" type = "text"
+			label		= "Número de cedula"
+			description	= "Digite número cedula"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "movil" type = "text"
+			label		= "movil"
+			description	= "Teléfono movil"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "email" type = "text"
+			label		= "email"
+			description	= "Ingrese correo"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "cantidad" type = "text"
+			label		= "Cantidad de Carga"
+			description	= "Cantidad de Carga"			
+			required	= "false"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+	</fieldset>
+
+</form>

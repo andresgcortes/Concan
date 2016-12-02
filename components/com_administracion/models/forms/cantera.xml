@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- $Id: category.xml 19638 2010-11-25 02:53:32Z ian $ -->
+
+<form>
+
+	<fieldset addfieldpath="/libraries/concan/fields">
+
+		<field name = "id" type = "hidden"/>
+
+		<field name = "nombre" type = "text"
+			label		= "Nombre Cantera"
+			description	= "Nombre de la cantera"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "codigo_expediente" type = "text"
+			label		= "Código Expediente"
+			description	= "Registre Aquí el código del expediente"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>	
+		
+		<field name = "explotador_minero" type = "list"
+			label		= "Explotador Minero Autorizado"
+			description	= "Explotador Minero Autorizado x"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		>
+			<option value = "1" >Titular Minero</option>
+			<option value = "2" >Beneficiario de Área de Reserva Especial</option>
+			<option value = "3" >Solicitante de Legalización</option>
+			<option value = "4" >Subcontrato de Formalización</option>
+		
+		</field>
+		
+		<field name = "explotador" type = "text"
+			label		= "Nombres y Apellidos o Razon Social del explotador minero autorizado"
+			description	= "Nombres y Apellidos o Razon Social del explotador minero autorizado de la cantera"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+				
+		<field name = "tipo_identificacion" type = "list"
+			label		= "Tipo Identificación"
+			description	= "Tipo Identificación del propietario "			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		>
+			<option value = "1" >NIT</option>
+			<option value = "2" >Cédula</option>
+			<option value = "3" >Cédula Extranjería</option>
+			<option value = "4" >RUT</option>
+		
+		</field>
+		
+		<field name = "numero_identidad" type = "text"
+			label		= "Número Identidad"
+			description	= "Número Identidad del propietario"			
+			required	= "true"		
+			class		= "form-control"
+			labelclass	= "form-label"
+		/>
+		
+		<field name = "departamento" type = "departamentos"
+			label		= "Departamento"
+			description	= "Nombre del Departamento"			
+			required	= "true"		
+			class		= "departamento"
+			labelclass	= "form-label"
+		/>
+	
+		<field name = "ciudad" type = "ciudades"
+			label		= "Ciudad"
+			description	= "Nombre de la Ciudad"			
+			required	= "true"	
+			class		= "form-control m-bot15"
+			labelclass	= "form-label"	
+		/>
+		
+		<field name = "longitud" type = "text"
+			label		= "Longitud"
+			description	= "Longitud en Grados"			
+			required	= "true"	
+			class		= "form-control"
+			labelclass	= "form-label"	
+			hint		= "Longitud"
+		/>
+
+		<field name = "latitud" type = "text"
+			label		= "Latitud"
+			description	= "Longitud en Grados"			
+			required	= "true"
+			class		= "form-control"
+			labelclass	= "form-label"		
+			hint		= "Latitud"
+		/>
+		
+		<field name="operada" type="radio" 
+			label		= "Operada por Charisma" 
+			description	= "Operada por Charisma " 
+			class		= ""
+			labelclass	= "">
+				<option value = "1" class = "skin-square-green" >Si</option>
+				<option value = "0" class = "skin-square-green" >No</option>
+		</field>
+
+		<field name = "materiales" type = "material"
+			label		= "Materiales"
+			description	= "Materiales de Comercialización"			
+			class		= "form-control"
+			labelclass	= "sr-only"		
+			hint		= "Material"
+		/>
+	
+		<field name = "cantidad" type = "text"
+			label		= "Cantidad"
+			description	= "Cantidad en metros cubicos"			
+			class		= "form-control autoNumeric"
+			labelclass	= "sr-only"		
+			hint		= "Cantidad M3"
+		/>
+	
+		<field name = "valor" type = "text"
+			label		= "Valor Material"
+			description	= "Valor del material"			
+			class		= "form-control autoNumeric"
+			labelclass	= "sr-only"		
+			hint		= "Valor $"
+		/>
+		
+		<field name = "resistencia" type = "text"
+			label		= "Resistencia"
+			description	= "Resistencia del material"			
+			class		= "form-control autoNumeric"
+			labelclass	= "sr-only"		
+			hint		= "Resistencia"
+		/>
+		
+		<field name = "desgaste" type = "text"
+			label		= "Desgaste"
+			description	= "Desgaste del material"			
+			class		= "form-control autoNumeric"
+			labelclass	= "sr-only"	
+			hint		= "Desgaste"
+		/>
+		
+		<field name = "plasticidad" type = "text"
+			label		= "Plasticidad"
+			description	= "Plasticidad del material"			
+			class		= "form-control autoNumeric"
+			labelclass	= "sr-only"	
+			hint		= "Plasticidad"
+		/>	
+
+	</fieldset>
+
+</form>

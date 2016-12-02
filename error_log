@@ -1,0 +1,166 @@
+[14-Sep-2016 00:48:17 America/Bogota] PHP Fatal error:  Cannot declare class JFormFieldVehiculos, because the name is already in use in /home/kcarisma/public_html/concan/libraries/concan/fields/conductores.php on line 0
+[17-Sep-2016 12:00:46 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[17-Sep-2016 12:00:46 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[17-Sep-2016 12:01:03 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[17-Sep-2016 12:01:03 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[17-Sep-2016 12:01:32 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[17-Sep-2016 12:01:32 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 09:35:50 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 09:35:50 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 09:37:52 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:38:12 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:40:22 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:40:24 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:40:41 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:41:09 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:31 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:31 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:32 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:32 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:32 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:32 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:33 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:33 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:49 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:42:53 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 09:42:53 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 09:43:09 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 09:43:09 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 09:43:36 America/Bogota] PHP Notice:  Undefined property: OperacionViewOperacion::$filterForm in /home/kcarisma/public_html/concan/layouts/joomla/searchtools/default/bar.php on line 28
+[24-Sep-2016 09:43:40 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 09:43:40 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 09:44:16 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 09:44:16 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 09:44:47 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 09:44:47 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 12:19:30 America/Bogota] PHP Notice:  Undefined variable: message in /home/kcarisma/public_html/concan/components/com_operacion/controllers/operacion.php on line 172
+[24-Sep-2016 12:19:30 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 12:19:30 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Sep-2016 12:19:42 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Sep-2016 12:19:42 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:08:26 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:08:26 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:08:26 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:08:46 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:08:46 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:08:46 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:09:12 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[23-Oct-2016 21:10:18 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[23-Oct-2016 21:12:04 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[23-Oct-2016 21:12:59 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:12:59 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:12:59 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:14:21 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:14:21 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:14:21 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:14:59 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[23-Oct-2016 21:15:18 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[23-Oct-2016 21:15:36 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:15:36 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:15:36 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:16:02 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:16:02 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:16:02 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:19:44 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:19:44 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:19:44 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:21:34 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:21:34 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:21:34 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:27:51 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:27:51 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:27:51 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:27:51 America/Bogota] PHP Notice:  Undefined property: stdClass::$novedades in /home/kcarisma/public_html/concan/components/com_operacion/views/ordenespedido/tmpl/default.php on line 146
+[23-Oct-2016 21:27:51 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/kcarisma/public_html/concan/components/com_operacion/views/ordenespedido/tmpl/default.php on line 146
+[23-Oct-2016 21:27:51 America/Bogota] PHP Notice:  Undefined property: stdClass::$novedades in /home/kcarisma/public_html/concan/components/com_operacion/views/ordenespedido/tmpl/default.php on line 146
+[23-Oct-2016 21:27:51 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home/kcarisma/public_html/concan/components/com_operacion/views/ordenespedido/tmpl/default.php on line 146
+[23-Oct-2016 21:28:35 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:28:35 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:28:35 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:28:35 America/Bogota] PHP Notice:  Undefined property: stdClass::$novedades in /home/kcarisma/public_html/concan/components/com_operacion/views/ordenespedido/tmpl/default.php on line 146
+[23-Oct-2016 21:28:35 America/Bogota] PHP Notice:  Undefined property: stdClass::$novedades in /home/kcarisma/public_html/concan/components/com_operacion/views/ordenespedido/tmpl/default.php on line 146
+[23-Oct-2016 21:37:11 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:37:11 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:37:11 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[23-Oct-2016 21:40:18 America/Bogota] PHP Notice:  Undefined variable: message in /home/kcarisma/public_html/concan/components/com_operacion/controllers/operacion.php on line 174
+[23-Oct-2016 21:40:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[23-Oct-2016 21:40:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[23-Oct-2016 21:40:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Oct-2016 11:02:58 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[24-Oct-2016 11:03:12 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Oct-2016 11:03:12 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[24-Oct-2016 11:03:12 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Oct-2016 11:15:50 America/Bogota] PHP Notice:  Undefined variable: OperacionModelOperacion in /home/kcarisma/public_html/concan/components/com_operacion/controllers/operacion.php on line 175
+[24-Oct-2016 18:05:51 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[24-Oct-2016 18:06:16 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[24-Oct-2016 18:06:16 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[24-Oct-2016 18:06:16 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[24-Oct-2016 18:07:05 America/Bogota] PHP Notice:  Undefined variable: OperacionModelOperacion in /home/kcarisma/public_html/concan/components/com_operacion/controllers/operacion.php on line 175
+[25-Oct-2016 06:08:53 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[25-Oct-2016 06:09:09 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[25-Oct-2016 06:09:09 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[25-Oct-2016 06:09:09 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[25-Oct-2016 06:09:25 America/Bogota] PHP Notice:  Undefined variable: OperacionModelOperacion in /home/kcarisma/public_html/concan/components/com_operacion/controllers/operacion.php on line 175
+[26-Oct-2016 05:25:22 America/Bogota] PHP Notice:  Uninitialized string offset: 0 in /home/kcarisma/public_html/concan/libraries/joomla/application/web.php on line 493
+[26-Oct-2016 05:25:37 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:25:37 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:25:37 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 50
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 51
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 55
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 75
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 76
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 77
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Trying to get property of non-object in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 78
+[26-Oct-2016 05:35:42 America/Bogota] PHP Notice:  Undefined variable: html in /home/kcarisma/public_html/concan/components/com_operacion/controllers/ajax.php on line 148
+[26-Oct-2016 05:42:01 America/Bogota] PHP Notice:  Undefined index: tmp_name in /home/kcarisma/public_html/concan/components/com_operacion/models/operacion.php on line 140
+[26-Oct-2016 05:42:01 America/Bogota] PHP Notice:  Undefined index: name in /home/kcarisma/public_html/concan/components/com_operacion/models/operacion.php on line 140
+[26-Oct-2016 05:42:36 America/Bogota] PHP Notice:  Undefined index: tmp_name in /home/kcarisma/public_html/concan/components/com_operacion/models/operacion.php on line 140
+[26-Oct-2016 05:42:36 America/Bogota] PHP Notice:  Undefined index: name in /home/kcarisma/public_html/concan/components/com_operacion/models/operacion.php on line 140
+[26-Oct-2016 05:43:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:43:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:43:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 05:44:35 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:44:35 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:44:35 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 05:54:42 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:54:42 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:54:42 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 05:58:00 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:58:00 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:58:00 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 05:58:57 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:58:57 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:58:57 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 05:59:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:59:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:59:25 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 05:59:49 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 05:59:49 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 05:59:49 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 06:00:24 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 06:00:24 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 06:00:24 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 06:00:31 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 06:00:31 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 06:00:31 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 06:00:45 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 06:00:45 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 06:00:45 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 06:02:19 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 06:02:19 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 06:02:19 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 06:04:00 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 06:04:00 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 06:04:00 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 06:05:27 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 29
+[26-Oct-2016 06:05:27 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 31
+[26-Oct-2016 06:05:27 America/Bogota] PHP Notice:  Undefined index: id_orden in /home/kcarisma/public_html/concan/components/com_operacion/models/fields/clientes.php on line 43
+[26-Oct-2016 06:08:03 America/Bogota] PHP Notice:  Undefined property: stdClass::$departamento in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 112
+[26-Oct-2016 06:08:03 America/Bogota] PHP Notice:  Undefined property: stdClass::$ciudad in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 117
+[26-Oct-2016 06:08:03 America/Bogota] PHP Notice:  Undefined property: stdClass::$departamento in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 112
+[26-Oct-2016 06:08:03 America/Bogota] PHP Notice:  Undefined property: stdClass::$ciudad in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 117
+[26-Oct-2016 06:20:39 America/Bogota] PHP Notice:  Undefined property: stdClass::$ciudad in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 123
+[26-Oct-2016 06:20:39 America/Bogota] PHP Notice:  Undefined property: stdClass::$departamento in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 126
+[26-Oct-2016 06:20:39 America/Bogota] PHP Notice:  Undefined property: stdClass::$ciudad in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 123
+[26-Oct-2016 06:20:39 America/Bogota] PHP Notice:  Undefined property: stdClass::$departamento in /home/kcarisma/public_html/concan/components/com_administracion/views/proveedores/tmpl/default.php on line 126
