@@ -51,7 +51,7 @@ JHTML::_('behavior.formvalidation'); ?>
 			
 			jQuery.ajax({
 			
-				url: 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBREEhYm3zlOje6XRgtG-eaT1pXhl8MCN4',
+				url: 'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCfi3uhKwjbjYXnNPzib6aWUblKyEEM3gc',
 				type: "POST",
 				contentType:false, //Debe estar en false para que pase el objeto sin procesar
 				data:placa, //Le pasamos el objeto que creamos con los archivos
